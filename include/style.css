@@ -1,0 +1,326 @@
+
+body { 
+    background-image: url("../img/bgblue.png");
+    background-repeat: repeat-x;
+    background-color: #25b9de;
+    margin: 0;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+.container{
+    margin-top:20px;
+    max-width: 1000px !important;
+    /*Skapar en halvt genomskinnlig mörk bakgrund*/
+    background: rgba(25, 25, 25, .10);
+    border-radius: 5px;
+    padding: 20px;
+}
+/* Navbar-header*/
+.navbar-header{
+     height:180px;
+}
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+}
+.navbar-brand img {
+    margin-top: -30px;
+    min-width: 250px;
+    width: 100%;
+}
+.navbar-brand img:hover {
+    margin-top: -30px;
+    transform: translateX(-1%);
+    min-width: 255px;
+    width: 102%;
+}
+#socialdiv{
+    margin-top: 165px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    z-index: 3;
+}
+#facebook{
+    padding: 10px 18px;
+    background: url("../img/facebook.png");
+    background-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+#facebook:hover{
+    padding: 10px 18px;
+    background: url("../img/facebook_reverse.png");
+    background-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+#twitter{
+    padding: 10px 18px;
+    background: url("../img/twitter.png");
+    background-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+#twitter:hover{
+    padding: 10px 18px;
+    background: url("../img/twitter_reverse.png");
+    background-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+#instagram{
+    padding: 10px 18px;
+    background: url("../img/instagram.png");
+    background-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+#instagram:hover{
+    padding: 10px 18px;
+    background: url("../img/instagram_reverse.png");
+    background-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+#reddit{
+    padding: 10px 18px;
+    background: url("../img/reddit.png");
+    background-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+#reddit:hover{
+    padding: 10px 18px;
+    background: url("../img/reddit_reverse.png");
+    background-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+/*Navbar-top*/
+.navbar {
+    height: 100%;
+    font-size:14px;
+    width:100%;
+    color:white;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0px;
+}
+.navbar a{
+    color:white;
+}
+.navbar-nav>li>a{
+    margin-top: 120px;
+    z-index: 1;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.navbar-default .navbar-nav>li>a {
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:white;
+}
+.navbar-right{
+    margin:0px;
+    z-index: 1;
+}
+.navbuttons #pokeForum{
+    background: url("../img/Forum_Button.png");
+    background-position: bottom center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+.navbuttons #pokeForum:hover{
+    background: url("../img/Forum_Button_reverse.png");
+    background-position: bottom center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+.navbuttons #news{
+    background: url("../img/News_Button.png");
+    background-position: bottom center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+.navbuttons #news:hover{
+    background: url("../img/News_Button_reverse.png");
+    background-position: bottom center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+.collapse.in{
+    position: relative;
+}
+
+/*google login*/
+.logintop{
+    position: absolute;
+    max-width: 150px;
+    z-index: 5;
+    margin: 35px -5px;
+}
+.logintop>ul>li>a{
+    margin: 0px;
+    z-index: 5;
+    padding: 5px;
+}
+.logintop>ul>li{
+    float: left;
+    margin: 0px;
+    z-index: 5;
+}
+
+
+.navbar-collapse{
+    border: none;
+    box-shadow: none;
+} 
+.navbar-collapse ul,li{
+    float: left;
+    margin: 0px;
+    margin-top: -20px;
+}
+/*Main*/
+#welcome_text{
+    background: rgba(25, 25, 25, .20);
+    border-radius: 5px;
+    padding: 10px;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+#carousel_caption_bg{
+    background: rgba(25, 25, 25, .40);
+    border-radius: 5px;
+    padding: 5px;
+}
+/*Forum*/
+.table{
+    border-bottom: 1px solid lightgrey;
+    color: white;
+}
+.table p{
+    margin: 0px;
+}
+.table>tbody>tr>th{
+    vertical-align: middle;
+}
+.pokeball>td>div{
+    padding: 0px;
+    background: rgba(25, 25, 25, .20);
+    border-radius: 5px;
+}
+.pokeball>td>div>div>a{
+    padding: 10px;
+}
+.pokeball>td>div>div>img{
+    -webkit-transition: .4s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    transition: .4s ease-in-out;
+}
+.pokeball>td>:hover img{
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/*Forum topicdetails*/
+#author_box{
+    background: rgba(25, 25, 25, .20);
+    padding: 20px;
+    border-radius: 5px;
+}
+#topic_footer{
+    background: rgba(25, 25, 25, .20);
+    border-radius: 5px;
+}
+#nolinefoot{
+    border: none;
+}
+.img_max img{
+    display: block;
+    max-width:100%;
+    max-height:500px;
+    width: auto !important;
+    height: auto !important;
+}
+/*news*/
+#news_1_img_box p{
+    margin: 0px; 
+    padding: 5px; 
+    text-decoration-style: none; 
+    font-weight: normal;"
+}
+
+.news_1_img_max img{
+    float: left;
+    display: block;
+    padding: 10px;
+    max-width:100%;
+    max-height:400px;
+    width: auto !important;
+    height: auto !important;
+}
+.thumbnail img{
+    display: block;
+    padding: 10px;
+    max-width:100%;
+    max-height:200px;
+    width: auto !important;
+    height: auto !important;
+}
+.thumbnail{
+    background: rgba(25, 25, 25, .20);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/*Skapar en breakpoint för navbaren vid 1000px*/
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0px;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+}
